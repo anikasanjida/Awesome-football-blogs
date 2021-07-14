@@ -257,7 +257,27 @@ footer img{
     margin-top: 20px;
     margin-bottom: 63px;
 }
+.title-2 .section-title{
+    background-color: violet;
+}
 
+.box2{
+    width: 16%;
+    margin:1% 2% ;
+    padding: 1% 2% ;
+    float: left;
+    box-shadow: 10px 10px 40px rgb(71, 66, 66);
+    border-radius: 10px;
+    height: 60%;
+    background-color: white;
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,cyan,blue);
+    border-image-slice: 1;
+    
+}
+.box2 h3{
+    padding-top: 2%;
+}
 /* media query start-- */
 
 
@@ -341,95 +361,9 @@ footer img{
        display: flex;
        justify-content: center;
        align-items: center;
-   }   
-
-
-   /* tablet-view */
-
-   @media only screen and (min-width:689px) and (max-width:991px) {
-    body{
-        overflow-x: hidden;
-        align-items: center;
-        justify-content: center;
-    }
-    .container1{
-        width: 100%;
-    }
-    .container{
-        width: 100%;
-    }
-    header{
-        background-color:springgreen ;
-        
-    }
-    .header-part{
-        display: flex;
-        flex-direction: column;
-        margin: 21px;
-    }
-    .header-part-1{
-        justify-content: space-between;
-    }
-    .header-part-1 .navbar{
-        display: block;
-    }
-    .login-icon a{
-    display: flex;
-    }
-
-    .header-part-2{
-        flex-direction: row;
-    }
-    .navbar ul{
-        margin-left: -36px;
-    }
-
-    }
-    .right-side{
-        display: flex;
-        justify-content: center;
-    }
-    .right-side img{margin-top: 94px;
-        width: 329px;
-       height: 259.17px;
-       transition: transform 3s ease-in; 
-    }
-    .right-side img:hover{
-         
-        transform: scale(1.1);
-    }
-    
-
-
-    .players{
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
-
-    .about-play{
-        grid-template-columns: repeat(2, 1fr);
-        
-    }
-    .play-img img{
-        width: 328px;
-        height: 248px;
-        align-items: center;
-    }
-    .play-info{
-        width: 329px;
-        height: 299px;
-        padding: 15px;
-    }
-    .img-section{
-        grid-template-columns: repeat(2,1fr);
-        row-gap: 21px;
-    }
-   footer{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }   
+   }  
    
+
 }
 
 
