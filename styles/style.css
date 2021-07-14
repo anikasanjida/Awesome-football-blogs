@@ -1,0 +1,103 @@
+/*---- Text-font---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F3F1FF;
+    
+}
+
+.container{
+    
+      width: 1160px;
+}
+.container1{
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 253);
+    margin-bottom: 70px;
+    
+    
+}
+.header-part{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-part-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 36px;
+    
+}
+.navbar ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.right-side img{
+    
+width: 556.01px;
+height: 438px;
+margin-top: 49px;
+margin-bottom: 86px;
+transition: transform 3s ease-in;  
+}
+
+ /* adding  transform */
+
+.right-side img:hover{
+     
+    transform: scale(1.1);
+}
+
+.login-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.fa-sign-in-alt{
+    margin-right: 8px;
+}
+.color-btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 24px;
+    background: #E02C6D;
+}
+
+.header-part-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side p{
+    color: #fff;
+    font-weight: bold;
+font-size: 64px;
+margin-bottom: 0;
+margin-top: 121px;
+}
+.left-side a{
+    margin-top: 27px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
