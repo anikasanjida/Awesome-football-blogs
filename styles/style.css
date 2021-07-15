@@ -141,6 +141,7 @@ main{
     margin: 10px 0px;
     font-size: 16px;
 }
+
 /* playground css */
 .about-play{
     display: grid;
@@ -166,7 +167,6 @@ main{
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* flex-wrap: wrap; */
     position: relative;
     
 }
@@ -257,27 +257,11 @@ footer img{
     margin-top: 20px;
     margin-bottom: 63px;
 }
-.title-2 .section-title{
-    background-color: violet;
+.title-2 {
+    margin-top: 20px;
+    color: violet;
 }
 
-.box2{
-    width: 16%;
-    margin:1% 2% ;
-    padding: 1% 2% ;
-    float: left;
-    box-shadow: 10px 10px 40px rgb(71, 66, 66);
-    border-radius: 10px;
-    height: 60%;
-    background-color: white;
-    border-left: 7px solid ;
-    border-image: linear-gradient(180deg,cyan,blue);
-    border-image-slice: 1;
-    
-}
-.box2 h3{
-    padding-top: 2%;
-}
 /* media query start-- */
 
 
